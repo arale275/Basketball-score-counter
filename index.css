@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: 'Wallpoet', cursive;
+}
+
+.warp-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tytle{
+    display: grid;
+    border: #F94F6D 0.5em solid;
+    border-radius: 10px;
+    padding: 1em;
+    width: 350px;
+}
+
+.tytle_p {
+    all: unset;
+    font-size: 5rem;
+    margin: 0;
+    align-content: center;
+}
+
+.tytle1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-self: end;
+    margin-right: 15%;
+}
+
+.tytle2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-self: start;
+    margin-left: 15%;
+}
+
+.black_box {
+    background: black;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 0.75em 0;
+}
+
+.num_points {
+    color: #F94F6D;
+    width: 117px;
+    margin: 0;
+    height: 100%;
+    font-size: 8rem;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: column;
+}
+
+.add_points {
+    background: #1B244A;
+    color: #9AABD8;
+    border: solid 1px #9AABD8;
+    font-size: 2rem;
+    font-family: 'Wallpoet', cursive;
+    padding: 0;
+}
