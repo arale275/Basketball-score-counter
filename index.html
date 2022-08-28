@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="index.js"></script>
+    <title>Document1</title>
+
+  </head>
+
+  <body>
+    <div class="warp-container">
+      <div class="tytle tytle1">
+        <p class="tytle_p">home</p>
+        <div class="black_box">
+          <p class="num_points" id="sum-points-home">0</p>
+        </div>
+        <div class="buttons">
+          <button class="add_points" onclick="add_one_point_home()">+ 1</button>
+          <button class="add_points" onclick="add_too_points_home()">+ 2</button>
+          <button class="add_points" onclick="add_tree_points_home()">+ 3</button>
+        </div>
+      </div>
+
+      <div class="tytle tytle2">
+        <p class="tytle_p">guest</p>
+        <div class="black_box">
+          <p class="num_points" id="sum-points-guest">0</p>
+        </div>
+        <div class="buttons">
+          <button class="add_points" onclick="add_one_point_guest()">+ 1</button>
+          <button class="add_points" onclick="add_too_point_guest()">+ 2</button>
+          <button class="add_points" onclick="add_tree_point_guest()">+ 3</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
